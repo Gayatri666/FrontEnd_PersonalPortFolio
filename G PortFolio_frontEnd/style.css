@@ -59,10 +59,17 @@ header .box2 {
 }
 
 header .box3 {
-    width: 15%;
+    width: 10%;
     height: 80px;
-    margin-right: 20px;
 }
+
+header .box3 img {
+    width: 90%;
+    height: 70px;
+    border-radius: 50%; 
+    
+}
+
 
 .box3 ul {
     display: flex;
@@ -379,13 +386,13 @@ header .box3 {
     padding-top: 30px;
 }
 
-.resume-box ul {
+.resume-box ol {
     list-style-type: none;
     padding-left: 0;
     padding-top: 20px;
 }
 
-.resume-box ul li {
+.resume-box ol li {
     font-size: 18px;
     color: rgb(246, 182, 182);  
     line-height: 1.6;
